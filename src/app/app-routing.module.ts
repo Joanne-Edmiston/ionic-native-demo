@@ -15,7 +15,9 @@ const routes: Routes = [
     path: 'list',
     loadChildren: './list/list.module#ListPageModule'
   },
-  { path: 'vibration', loadChildren: './vibration/vibration.module#VibrationPageModule' }
+  { path: 'vibration', loadChildren: './vibration/vibration.module#VibrationPageModule' },
+  { path: 'geo', loadChildren: './geo/geo.module#GeoPageModule' },
+  { path: 'camera', loadChildren: './camera/camera.module#CameraPageModule' }
 ];
 
 @NgModule({

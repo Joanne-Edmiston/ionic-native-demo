@@ -15,15 +15,25 @@ export class AppComponent {
       url: '/home',
       icon: 'home'
     },
-    {
-      title: 'List',
-      url: '/list',
-      icon: 'list'
-    },
+    //{
+    //  title: 'List',
+    //  url: '/list',
+    //  icon: 'list'
+    //},
     {
       title: 'Vibration',
       url: '/vibration',
-      icon: 'disc'
+      icon: 'pulse'
+    },
+    {
+      title: 'Geolocation',
+      url: '/geo',
+      icon: 'globe'
+    },
+    {
+      title: 'Camera',
+      url: '/camera',
+      icon: 'camera'
     }
   ];
 

@@ -1,5 +1,7 @@
 {
   "name": "native-demo",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
